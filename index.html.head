@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+/*
+ * Derived from:
+ *
+ * Bootstrap Image Gallery Demo 3.0.0
+ * https://github.com/blueimp/Bootstrap-Image-Gallery
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+-->
+<html lang="en">
+<head>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<meta charset="utf-8">
+<title>Gallery</title>
+<meta name="description" content="Gallery">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="./blueimp-gallery.min.css">
+<link rel="stylesheet" href="./bootstrap-image-gallery.css">
+<link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-fixed-top .navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=".">Gallery</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <form class="form-inline">
+        <div class="form-group">
+            <button id="image-gallery-button" type="button" class="btn btn-primary btn-lg">
+                <i class="glyphicon glyphicon-picture"></i>
+                Launch Image Gallery
+            </button>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-success btn-lg">
+            <i class="glyphicon glyphicon-leaf"></i>
+            <input id="borderless-checkbox" type="checkbox"> Borderless
+          </label>
+          <label class="btn btn-primary btn-lg">
+            <i class="glyphicon glyphicon-fullscreen"></i>
+            <input id="fullscreen-checkbox" type="checkbox"> Fullscreen
+          </label>
+        </div>
+    </form>
+    <br>
+    <!-- The container for the list of example images -->
